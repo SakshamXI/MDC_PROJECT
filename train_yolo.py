@@ -8,9 +8,9 @@ from ultralytics import YOLO
 # ---------------- settings ----------------
 DATA = "datasets/wider_yolo/data.yaml"
 MODEL = "yolov8n.pt"
-EPOCHS = 50
+EPOCHS = 60
 IMGSZ = 640
-BATCH = 32
+BATCH = 16
 DEVICE = None          # None = auto, or 0 for first GPU, or "cpu"
 # ------------------------------------------
 
